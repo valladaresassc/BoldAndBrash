@@ -20,3 +20,6 @@ console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 squid.setBidder(50, ObamaPortrait);
 console.log(squid.getOrderList());
 console.log(squid.getBidList());
+vanGogh.addPainting("StarryNight");
+vanGogh.printArtist();
+vanGogh.setPrice();
