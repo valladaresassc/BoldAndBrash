@@ -10,6 +10,8 @@ let ObamaPortrait = new Painting("Painting of Obama", 100000, 0);
 let LincolnPortrait = new Painting("Painting of Abraham Lincoln", 20000000, 0);
 let boldandBrash = new Painting("Bold and Brash", 99999999999999, 0);
 
+let vanGogh = new Artist("Vincent Van Gogh", "leftear", "iminsane" );
+
 squid.insertOrders(boldandBrash);
 squid.insertOrders(MonaLisa);
 squid.setBidder(3000000, ObamaPortrait);
@@ -20,3 +22,7 @@ console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 squid.setBidder(50, ObamaPortrait);
 console.log(squid.getOrderList());
 console.log(squid.getBidList());
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+vanGogh.addPainting("StarryNight");
+vanGogh.printArtist();
+vanGogh.setPrice();
